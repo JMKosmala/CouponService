@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+/* -------------Index----------------*/
+.index_box{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 10px;
+    border-color: black;
+    border-radius: 20px;
+    text-align: center;
+    justify-items: auto;
+}
+.useCoupon_box{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 10px;
+    border-color: black;
+    border-radius: 20px;
+    text-align: center;
+    justify-items: auto;
+}
+/* -------------Use Coupons----------------*/
+.coupon_list_container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 10px;
+    border-color: black;
+    border-radius: 20px;
+    text-align: center;
+    justify-items: auto;
+}
+.coupon_info{
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+display: flex;
+flex-direction: column;
+padding:5px;
+}
+.title{
+    font-size: large;
+    padding: 10px;
+}
+.coupon_att{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+    margin:20px;
+    align-items: center;
+}
+/* ---------------Coupon Used -------------*/
+.coupon_box{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 10px;
+    border-color: black;
+    border-radius: 20px;
+    text-align: center;
+    justify-items: auto;
+}
+
+.couponused_box{
+border-color: black;
+border-radius: 20px;
+}
+.backButton{
+color: blue;
+margin:30px;
+
+}
